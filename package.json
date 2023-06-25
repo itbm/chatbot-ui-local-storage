@@ -1,0 +1,32 @@
+{
+  "name": "@chatbot-ui/local-storage",
+  "version": "1.0.6",
+  "description": "Local storage support for the Chatbot UI project.",
+  "homepage": "https://github.com/jorge-menjivar/chatbot-ui-local-storage#readme",
+  "repository": "https://github.com/jorge-menjivar/chatbot-ui-local-storage.git",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "react",
+    "nodejs",
+    "nextjs",
+    "database",
+    "chatbot",
+    "chatbot-ui"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsc -w --project tsconfig.json",
+    "clean": "rm -rf local-storage index.d.ts index.js database.d.ts database.js"
+  },
+  "author": "Jorge Menjivar <jorgemenjivar1997@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@chatbot-ui/core": "^1.0.12",
+    "next": "^13.2.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
